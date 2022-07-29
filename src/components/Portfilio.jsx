@@ -43,7 +43,7 @@ export default function Portfilio() {
         _dark={{
           bg: "#3e3e3e",
         }}
-        p={20}
+        p={10}
         w="full"
         justifyContent="center"
         alignItems="center"

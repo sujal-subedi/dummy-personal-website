@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./photos/coverphoto.svg";
+import img from "../photos/coverphoto.svg";
 import {
   Button,
   Flex,

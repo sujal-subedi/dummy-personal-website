@@ -1,7 +1,7 @@
 import React from "react";
-import reactJs from "./photos/reactlogo.svg";
-// import python from "./photos/pythonlogo.png";
-// import sql from "./photos/sqllogologo.png";
+import reactJs from "../photos/reactlogo.svg";
+import python from "../photos/pythonlogo.png";
+import sql from "../photos/SQLlogo.png";
 
 import {
   Box,
@@ -12,6 +12,7 @@ import {
   Stack,
   Flex,
   Center,
+  Image,
 } from "@chakra-ui/react";
 
 const Feature = ({ title, text, icon }) => {
@@ -71,28 +72,52 @@ export default function Portfilio() {
             </chakra.h1>
           </Box>
           <Box p={4}>
-            <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
-              <Feature
-                Image
-                alt={"Login Image"}
-                objectFit={"cover"}
-                src={reactJs}
-                title={"ReactJs"}
-              />
-              <Feature
-                // Image
-                // alt={"Login Image"}
-                // objectFit={"cover"}
-                // src={python}
-                title={"Food Delivery App"}
-              />
-              <Feature
-                // Image
-                // alt={"Login Image"}
-                // objectFit={"cover"}
-                // src={sql}
-                title={"SQL"}
-              />
+            <SimpleGrid
+              columns={{ base: 1, md: 3 }}
+              spacing={10}
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              textAlign="center"
+              p="10"
+            >
+              <Box>
+                <Image
+                  boxSize="200px"
+                  src={reactJs}
+                  alt="ReactJs logo"
+                  border="1px"
+                  borderColor="gray.200"
+                ></Image>
+                <Text border="1px" mt="3" p="3">
+                  ReactJs
+                </Text>
+              </Box>
+
+              <Box>
+                <Image
+                  boxSize="200px"
+                  src={python}
+                  alt="Python logo"
+                  border="1px"
+                  borderColor="gray.200"
+                ></Image>
+                <Text border="1px" mt="3" p="3">
+                  Python
+                </Text>
+              </Box>
+              <Box>
+                <Image
+                  boxSize="200px"
+                  src={sql}
+                  alt="SQL Logo"
+                  border="1px"
+                  borderColor="gray.200"
+                ></Image>
+                <Text border="1px" mt="3" p="3">
+                  SQL
+                </Text>
+              </Box>
             </SimpleGrid>
           </Box>
         </Box>
