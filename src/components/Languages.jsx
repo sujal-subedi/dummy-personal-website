@@ -51,7 +51,7 @@ export default function Portfilio() {
         alignItems="center"
       >
         <Box
-          shadow="xl"
+          shadow="2xl"
           bg="white"
           _dark={{
             bg: "gray.800",
@@ -73,6 +73,7 @@ export default function Portfilio() {
           </Box>
           <Box p={4}>
             <SimpleGrid
+              shadow="dark-lg"
               columns={{ base: 1, md: 3 }}
               spacing={10}
               display="flex"

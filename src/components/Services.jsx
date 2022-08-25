@@ -27,7 +27,7 @@ const Services = () => {
         // pos="absolute"
       >
         <Box
-          shadow="xl"
+          shadow="2xl"
           bg="white"
           _dark={{
             bg: "gray.800",
@@ -47,6 +47,8 @@ const Services = () => {
             </chakra.h1>
           </Box>
           <SimpleGrid
+            shadow="dark-lg"
+            p="5"
             alignItems="start"
             columns={{
               base: 1,
@@ -120,6 +122,8 @@ const Services = () => {
             ></Box>
           </SimpleGrid>
           <SimpleGrid
+            shadow="dark-lg"
+            p="5"
             alignItems="center"
             columns={{
               base: 1,
@@ -195,6 +199,8 @@ const Services = () => {
             </Box>
           </SimpleGrid>
           <SimpleGrid
+            shadow="dark-lg"
+            p="5"
             alignItems="start"
             columns={{
               base: 1,

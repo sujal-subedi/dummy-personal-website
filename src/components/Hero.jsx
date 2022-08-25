@@ -39,9 +39,9 @@ export default function SplitScreen() {
               </Text>{" "}
             </Heading>
             <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
-              I’m an enterprise level web/mobile application developer with the
-              expertise in Frameworks / Programming Languages NodeJS + NESTJS +
-              Flutter + Serverless + GraphQL + WebRTC etc.
+              I’m an enterprise level web application developer with the
+              expertise in Frameworks / Programming Languages HTML/CSS,
+              JavaScript, ReactJs, Django,etc.
             </Text>
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Button

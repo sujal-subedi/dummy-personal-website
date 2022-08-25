@@ -19,10 +19,14 @@ export default function SmallWithNavigation() {
       {/* <ColorModeScript initialColorMode={theme.config.initialColorMode} /> */}
 
       <Box
+        className="navbar"
         position="fixed"
         width="full"
         bg={useColorModeValue("gray.50", "gray.900")}
         color={useColorModeValue("gray.700", "gray.200")}
+        shadow="dark-lg"
+        // boxShadow={useColorModeValue("0px 4px 19px gray", "0px 1px 19px gray")}
+        zIndex="1"
       >
         <Container
           as={Stack}

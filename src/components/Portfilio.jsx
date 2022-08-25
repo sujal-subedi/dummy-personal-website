@@ -49,7 +49,7 @@ export default function Portfilio() {
         alignItems="center"
       >
         <Box
-          shadow="xl"
+          shadow="2xl"
           bg="white"
           _dark={{
             bg: "gray.800",
@@ -68,7 +68,7 @@ export default function Portfilio() {
               Portfolio
             </chakra.h1>
           </Box>
-          <Box p={4}>
+          <Box p={4} shadow="dark-lg">
             <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
               <Feature
                 icon={
