@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Portfilio from "./components/Portfilio";
 import Services from "./components/Services";
 import Languages from "./components/Languages";
+import "./app.css";
+import ContactForm from "./components/Contact";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Portfilio />
         <Services />
         <Languages />
+        <ContactForm />
       </ChakraProvider>
     </div>
   );

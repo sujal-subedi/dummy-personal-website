@@ -42,6 +42,7 @@ export default function SmallWithNavigation() {
             <Link href={"#portfolio"}>Portfolio</Link>
             <Link href={"#services"}>Services</Link>
             <Link href={"#languages"}>Languages</Link>
+            <Link href={"#contact"}>Contact</Link>
           </Stack>
           <Button onClick={toggleColorMode}>
             {colorMode === "light" ? (

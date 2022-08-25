@@ -9,7 +9,7 @@ const Services = () => {
         _dark={{
           bg: "#3e3e3e",
         }}
-        p={10}
+        p={5}
         w="full"
         justifyContent="center"
         alignItems="center"
