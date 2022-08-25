@@ -1,20 +1,9 @@
 import React from "react";
-import {
-  Box,
-  chakra,
-  SimpleGrid,
-  Button,
-  ButtonGroup,
-  Icon,
-  Text,
-  Stack,
-  Flex,
-  Center,
-} from "@chakra-ui/react";
+import { Box, chakra, SimpleGrid, Flex } from "@chakra-ui/react";
 
 const Services = () => {
   return (
-    <div>
+    <div id="services">
       <Flex
         bg="#edf3f8"
         _dark={{
@@ -24,7 +13,6 @@ const Services = () => {
         w="full"
         justifyContent="center"
         alignItems="center"
-        // pos="absolute"
       >
         <Box
           shadow="2xl"
@@ -47,6 +35,9 @@ const Services = () => {
             </chakra.h1>
           </Box>
           <SimpleGrid
+            transition={".5s"}
+            _hover={{ transform: "scale(.9)" }}
+            spacing={10}
             shadow="dark-lg"
             p="5"
             alignItems="start"
@@ -122,6 +113,8 @@ const Services = () => {
             ></Box>
           </SimpleGrid>
           <SimpleGrid
+            transition={".5s"}
+            _hover={{ transform: "scale(.9)" }}
             shadow="dark-lg"
             p="5"
             alignItems="center"
@@ -199,6 +192,8 @@ const Services = () => {
             </Box>
           </SimpleGrid>
           <SimpleGrid
+            transition={".5s"}
+            _hover={{ transform: "scale(.9)" }}
             shadow="dark-lg"
             p="5"
             alignItems="start"

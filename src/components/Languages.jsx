@@ -40,6 +40,7 @@ export default function Portfilio() {
   return (
     <>
       <Flex
+        id="languages"
         direction="column"
         bg="#edf3f8"
         _dark={{
@@ -82,8 +83,10 @@ export default function Portfilio() {
               textAlign="center"
               p="10"
             >
-              <Box>
+              <Box transition={".5s"} _hover={{ transform: "scale(1.1)" }}>
                 <Image
+                  transition={".5s"}
+                  _hover={{ transform: "scale(.9)" }}
                   boxSize="200px"
                   src={reactJs}
                   alt="ReactJs logo"
@@ -95,8 +98,10 @@ export default function Portfilio() {
                 </Text>
               </Box>
 
-              <Box>
+              <Box transition={".5s"} _hover={{ transform: "scale(1.1)" }}>
                 <Image
+                  transition={".5s"}
+                  _hover={{ transform: "scale(.9)" }}
                   boxSize="200px"
                   src={python}
                   alt="Python logo"
@@ -107,8 +112,10 @@ export default function Portfilio() {
                   Python
                 </Text>
               </Box>
-              <Box>
+              <Box transition={".5s"} _hover={{ transform: "scale(1.1)" }}>
                 <Image
+                  transition={".5s"}
+                  _hover={{ transform: "scale(.9)" }}
                   boxSize="200px"
                   src={sql}
                   alt="SQL Logo"

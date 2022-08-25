@@ -38,6 +38,7 @@ export default function Portfilio() {
   return (
     <>
       <Flex
+        id="portfolio"
         direction="column"
         bg="#edf3f8"
         _dark={{

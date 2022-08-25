@@ -39,9 +39,9 @@ export default function SmallWithNavigation() {
         >
           <Stack direction={"row"} spacing={6}>
             <Link href={"#"}>Home</Link>
-            <Link href={"#"}>About</Link>
-            <Link href={"#"}>Blog</Link>
-            <Link href={"#"}>Contact</Link>
+            <Link href={"#portfolio"}>Portfolio</Link>
+            <Link href={"#services"}>Services</Link>
+            <Link href={"#languages"}>Languages</Link>
           </Stack>
           <Button onClick={toggleColorMode}>
             {colorMode === "light" ? (
