@@ -10,7 +10,6 @@ import {
   Text,
   Stack,
   Flex,
-  Center,
 } from "@chakra-ui/react";
 
 const Feature = ({ title, text, icon }) => {
@@ -34,7 +33,7 @@ const Feature = ({ title, text, icon }) => {
   );
 };
 
-export default function Portfilio() {
+const Portfolio = () => {
   return (
     <>
       <Flex
@@ -58,6 +57,7 @@ export default function Portfilio() {
           px={8}
           py={20}
           mx="auto"
+          borderRadius="xl"
         >
           <Box>
             <chakra.h1
@@ -100,4 +100,5 @@ export default function Portfilio() {
       </Flex>
     </>
   );
-}
+};
+export default Portfolio;

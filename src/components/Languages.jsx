@@ -3,40 +3,9 @@ import reactJs from "../photos/reactlogo.svg";
 import python from "../photos/pythonlogo.png";
 import sql from "../photos/SQLlogo.png";
 
-import {
-  Box,
-  chakra,
-  SimpleGrid,
-  Icon,
-  Text,
-  Stack,
-  Flex,
-  Center,
-  Image,
-} from "@chakra-ui/react";
+import { Box, chakra, SimpleGrid, Text, Flex, Image } from "@chakra-ui/react";
 
-const Feature = ({ title, text, icon }) => {
-  return (
-    <Stack>
-      <Flex
-        w={16}
-        h={16}
-        align={"center"}
-        justify={"center"}
-        color={"white"}
-        rounded={"full"}
-        bg={"gray.300"}
-        mb={1}
-      >
-        {icon}
-      </Flex>
-      <Text fontWeight={600}>{title}</Text>
-      <Text color={"gray.600"}>{text}</Text>
-    </Stack>
-  );
-};
-
-export default function Portfilio() {
+const Languages = () => {
   return (
     <>
       <Flex
@@ -61,6 +30,7 @@ export default function Portfilio() {
           py={20}
           mx="auto"
           w="full"
+          borderRadius="xl"
         >
           <Box>
             <chakra.h1
@@ -132,4 +102,5 @@ export default function Portfilio() {
       </Flex>
     </>
   );
-}
+};
+export default Languages;

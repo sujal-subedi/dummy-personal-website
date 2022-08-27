@@ -1,12 +1,13 @@
 import React from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Portfilio from "./components/Portfilio";
+import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 import Languages from "./components/Languages";
 import "./app.css";
 import ContactForm from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
       <ChakraProvider>
         <Navbar />
         <Hero />
-        <Portfilio />
+        <Portfolio />
         <Services />
         <Languages />
         <ContactForm />
+        <Footer />
       </ChakraProvider>
     </div>
   );

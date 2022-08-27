@@ -23,6 +23,7 @@ const Services = () => {
           px={8}
           py={20}
           mx="auto"
+          borderRadius="xl"
         >
           <Box>
             <chakra.h1
