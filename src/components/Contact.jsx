@@ -31,10 +31,10 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_3ij733g",
-        "template_dsaer08",
+//         "service_3ij733g",
+//         "template_dsaer08",
         form.current,
-        "k-5gdl39uG9SoaViK"
+//         "k-5gdl39uG9SoaViK"
       )
       .then((result) => {
         Swal.fire({
@@ -49,7 +49,7 @@ const ContactForm = () => {
     e.target.reset();
   };
 
-  const { hasCopied, onCopy } = useClipboard("sujal.subedi0605@gmail.com");
+  const { hasCopied, onCopy } = useClipboard("");
 
   return (
     <Flex
